@@ -1,0 +1,132 @@
+body {
+    background-color: #EEEEFF;
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+input {
+    border: 1px solid #CBCC88;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0.5em;
+    resize: none;
+}
+#welcome {
+	font-family: Verdana;
+	top: 100px;
+    left:660px;   
+    position:absolute;
+    text-align:center;
+    
+}
+#welcome h1 {
+    margin:auto;
+
+    vertical-align:middle;
+}
+
+.button, button:visited {
+    border: 1px solid #C0C083;
+    color: #000000;
+    background-color: #FFFFFF;
+
+    position: relative;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    font-size: 11px;
+    padding: 4px 10px;
+}
+
+.button:hover {
+    background-color: #AAB0CC;
+}
+
+.button:active {
+    background-color: #AABBCC;
+}
+
+
+
+fieldset label {
+    float: left;
+    width: 10em;
+}
+#wrapper {	
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 100px;
+	background: #AABBDD;
+	text-align:center;
+	vertical-align:middle;
+	border-radius: 5px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 120px;
+	height: 1%;
+	position: relative;
+}
+#middle:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 0 0 0 270px;
+}
+
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+	background: #AABBFF;
+	border-radius: 5px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width: 1000px;
+	margin: -100px auto 0;
+	height: 100px;
+	background: #AABBDD;
+	position: relative;
+	border-radius: 5px;
+	text-align:center;
+}
+
+

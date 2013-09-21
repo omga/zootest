@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimalsList> 
+	<animal>
+		<name>Joe</name>
+		<species>dog</species>
+		<age>5</age>
+		<cage>big</cage>
+		<keeper>Taylor</keeper>
+	</animal>
+</AnimalsList>

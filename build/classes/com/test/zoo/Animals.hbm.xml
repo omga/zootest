@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 18, 2013 7:18:29 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.test.zoo.Animals" table="ANIMALS">
+        <id name="name" type="java.lang.String">
+            <column name="NAME" />
+        </id>
+        <property name="age" type="int">
+            <column name="AGE" />
+        </property>
+        <property name="species" type="java.lang.String">
+            <column name="SPECIES" />
+        </property>
+        <property name="cage" type="java.lang.String">
+            <column name="CAGE" />
+        </property>
+        <property name="keeper" type="java.lang.String">
+            <column name="KEEPER" />
+        </property>
+    </class>
+</hibernate-mapping>
